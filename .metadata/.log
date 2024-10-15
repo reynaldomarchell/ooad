@@ -1,0 +1,106 @@
+!SESSION 2024-09-20 16:44:59.384 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_ID
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/rmbagt/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/rmbagt/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-20 16:45:01.315
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-20 16:46:01.622
+!MESSAGE Logback config file: /Users/rmbagt/Developer/ooad/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+!SESSION 2024-10-15 15:35:41.673 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_ID
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/rmbagt/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/rmbagt/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-15 15:35:43.156
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-15 15:36:08.247
+!MESSAGE Logback config file: /Users/rmbagt/Developer/ooad/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-10-15 15:36:15.276
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-10-15 15:36:18.492
+!MESSAGE Request checkStatus failed with message: Hostname/IP does not match certificate's altnames: Host: api.github.com. is not in the cert's altnames: DNS:*.apps.binus.ac.id, DNS:apps.binus.ac.id
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-10-15 15:36:19.795
+!MESSAGE Request checkStatus failed with message: Hostname/IP does not match certificate's altnames: Host: api.github.com. is not in the cert's altnames: DNS:*.apps.binus.ac.id, DNS:apps.binus.ac.id
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-10-15 15:36:21.499
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-10-15 15:36:25.508
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-10-15 15:36:31.519
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-10-15 15:36:44.579
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-10-15 15:36:55.165
+!MESSAGE Jetty server started: true uri: http://127.0.0.1:50545/chat
+!SESSION 2024-10-15 15:38:58.921 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_ID
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/rmbagt/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/rmbagt/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-15 15:39:00.652
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-10-15 15:39:04.705
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-15 15:39:04.982
+!MESSAGE Logback config file: /Users/rmbagt/Developer/ooad/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-10-15 15:39:12.010
+!MESSAGE Persistence: /Users/rmbagt/.config/github-copilot
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-10-15 15:39:12.159
+!MESSAGE Jetty server started: true uri: http://127.0.0.1:50605/chat
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-10-15 15:39:17.020
+!MESSAGE Workspace labels: java
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-10-15 16:37:09.650
+!MESSAGE <null>
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at com.genuitec.copilot4eclipse.CompletionJob.run(CompletionJob.java:85)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-10-15 17:33:43.797
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-10-15 18:29:18.113
+!MESSAGE Jetty server stopped: Server@540cd1d1{STOPPED}[10.0.20,sto=0]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-10-15 18:29:18.117
+!MESSAGE Jetty server stopped: true
+!SESSION 2024-10-15 18:29:25.604 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_ID
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/rmbagt/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/rmbagt/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-15 18:29:27.115
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-15 18:29:31.909
+!MESSAGE Logback config file: /Users/rmbagt/Developer/ooad/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
