@@ -80,27 +80,22 @@ public class Main extends Application {
 			ResultSet rs = st.executeQuery();
 			while (rs.next()) {
 				int id = rs.getInt("id");
-				String name = rs.getString("name");
-				String email = rs.getString("email");
-				String phone = rs.getString("phone");
-				int money = rs.getInt("money");
-
-				HBox userBox = new HBox(10);
-				userBox.getChildren().add(new Label("ID: " + id));
-				userBox.getChildren().add(new Label("Name: " + name));
-				userBox.getChildren().add(new Label("Email: " + email));
-				userBox.getChildren().add(new Label("Phone: " + phone));
-				userBox.getChildren().add(new Label("Money: " + money));
-
-				Button addMoneyButton = new Button("Add Money");
-				addMoneyButton.setOnAction(e -> addMoney(id));
-				userBox.getChildren().add(addMoneyButton);
-
-				Button deleteButton = new Button("Delete");
-				deleteButton.setOnAction(e -> deleteUser(id));
-				userBox.getChildren().add(deleteButton);
-
-				userListContainer.getChildren().add(userBox);
+				Label nameLabel = new Label("Name: " + rs.getString("name"));
+				Label emailLabel = new Label("Email: " + rs.getString("email"));
+				Label moneyLabel = new Label("Money: " + String.valueOf(rs.getInt("money")));
+				Button addMoney = new Button("Add $1000");
+				addMoney.setOnMouseClicked(e -> {
+					addMoney(id);
+				});
+				
+				Button delete = new Button("Delete User");
+				delete.setOnMouseClicked(e -> {
+                    deleteUser(id);
+                });
+				
+				HBox buttons = new HBox(5, addMoney, delete);
+				VBox user = new VBox(5, nameLabel, emailLabel, moneyLabel, buttons);
+				userListContainer.getChildren().add(user);
 			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -149,11 +144,31 @@ public class Main extends Application {
 
     private void addMoney(int userId) {
         // TODO: Update the user's money in the database by adding 1000
+    	String query = "UPDATE users SET money = money + 1000 WHERE id = ?";
+    	Connect con = Connect.getInstance();
+    	PreparedStatement st = con.prepareStatement(query);
+    	
+    	try {
+    		st.setInt(1, userId);
+    		st.executeUpdate();
+    	} catch (SQLException e) {
+    		e.printStackTrace();
+    	}
         fetchUserData();
     }
 
     private void deleteUser(int userId) {
         // TODO: Delete the user from the database
+    	String query = "DELETE FROM users WHERE id = ?";
+    	Connect con = Connect.getInstance();
+    	PreparedStatement st = con.prepareStatement(query);
+    	try {
+			st.setInt(1, userId);
+			st.executeUpdate();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
         fetchUserData();
     }
 
