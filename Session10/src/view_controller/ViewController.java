@@ -28,7 +28,7 @@ public class ViewController {
 		this.pages = new Stack<VBox>();
 	}
 	
-	private ViewController(Stage stages) {
+	private ViewController(Stage stage) {
         this.stage = stage;
         init();
 		
