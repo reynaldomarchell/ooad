@@ -41,7 +41,6 @@
     <fullyQualifiedTypeName name="javax.swing.table.TableColumn"/>
     <fullyQualifiedTypeName name="javafx.scene.control.cell.PropertyValueFactory"/>
     <fullyQualifiedTypeName name="javafx.scene.control.TableColumn"/>
-    <fullyQualifiedTypeName name="javafx.stage.Stage"/>
     <fullyQualifiedTypeName name="view.AppView"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="view.HomeView"/>
@@ -54,4 +53,5 @@
     <fullyQualifiedTypeName name="view.DetailView"/>
     <fullyQualifiedTypeName name="model.Student"/>
     <fullyQualifiedTypeName name="view_controller.ViewController"/>
+    <fullyQualifiedTypeName name="javafx.stage.Stage"/>
 </qualifiedTypeNameHistroy>
