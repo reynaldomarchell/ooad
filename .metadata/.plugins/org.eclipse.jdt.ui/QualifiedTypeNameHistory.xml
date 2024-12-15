@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javafx.scene.layout.GridPane"/>
-    <fullyQualifiedTypeName name="javafx.scene.layout.FlowPane"/>
     <fullyQualifiedTypeName name="javafx.scene.control.PasswordField"/>
     <fullyQualifiedTypeName name="javafx.geometry.Pos"/>
     <fullyQualifiedTypeName name="javafx.geometry.Insets"/>
@@ -24,19 +22,12 @@
     <fullyQualifiedTypeName name="java.util.Observable"/>
     <fullyQualifiedTypeName name="javafx.collections.ObservableList"/>
     <fullyQualifiedTypeName name="javafx.collections.FXCollections"/>
-    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="main.Connect"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="javafx.application.Application"/>
     <fullyQualifiedTypeName name="javafx.scene.control.MenuBar"/>
     <fullyQualifiedTypeName name="javafx.scene.control.MenuItem"/>
     <fullyQualifiedTypeName name="javafx.scene.control.Menu"/>
     <fullyQualifiedTypeName name="javafx.scene.layout.BorderPane"/>
     <fullyQualifiedTypeName name="view.AppMenu"/>
-    <fullyQualifiedTypeName name="javafx.scene.Scene"/>
-    <fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
     <fullyQualifiedTypeName name="javafx.scene.control.TableView"/>
     <fullyQualifiedTypeName name="javax.swing.table.TableColumn"/>
     <fullyQualifiedTypeName name="javafx.scene.control.cell.PropertyValueFactory"/>
@@ -46,12 +37,27 @@
     <fullyQualifiedTypeName name="view.HomeView"/>
     <fullyQualifiedTypeName name="javafx.event.EventHandler"/>
     <fullyQualifiedTypeName name="javafx.event.ActionEvent"/>
-    <fullyQualifiedTypeName name="javafx.scene.layout.VBox"/>
     <fullyQualifiedTypeName name="java.awt.Label"/>
     <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
-    <fullyQualifiedTypeName name="javafx.scene.control.Button"/>
     <fullyQualifiedTypeName name="view.DetailView"/>
     <fullyQualifiedTypeName name="model.Student"/>
     <fullyQualifiedTypeName name="view_controller.ViewController"/>
     <fullyQualifiedTypeName name="javafx.stage.Stage"/>
+    <fullyQualifiedTypeName name="javafx.application.Application"/>
+    <fullyQualifiedTypeName name="javafx.scene.Scene"/>
+    <fullyQualifiedTypeName name="javafx.scene.layout.VBox"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
+    <fullyQualifiedTypeName name="java.awt.Button"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.Button"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.ListView"/>
+    <fullyQualifiedTypeName name="view.ProductListView"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="connect.Connect"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="controller.ProductController"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="model.Product"/>
+    <fullyQualifiedTypeName name="view.UploadItemView"/>
+    <fullyQualifiedTypeName name="view.NavigationBar"/>
 </qualifiedTypeNameHistroy>
